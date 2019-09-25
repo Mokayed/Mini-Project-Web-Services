@@ -129,6 +129,7 @@ public class BankClient {
 
         // SOAP Envelope
         SOAPEnvelope envelope = soapPart.getEnvelope();
+        envelope.addNamespaceDeclaration(myNamespace, myNamespaceURI);
 
         // SOAP Body
         SOAPBody soapBody = envelope.getBody();

@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1dfe82b1-ed67-4585-b940-c5dc9b2f3916" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BankClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BankClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResttfulService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResttfulService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/BankRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/resources/Bank.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/resources/Bank.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +57,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BankClient">
     <configuration name="BankClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankClient" />
+      <module name="BankClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <module name="BankClient" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,6 +74,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BankClient" />
+        <item itemvalue="Application.Unnamed" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +92,7 @@
       <workItem from="1569407585902" duration="674000" />
       <workItem from="1569435568121" duration="6460000" />
       <workItem from="1569442363464" duration="121000" />
-      <workItem from="1569442497429" duration="2124000" />
+      <workItem from="1569442497429" duration="2799000" />
     </task>
     <servers />
   </component>
