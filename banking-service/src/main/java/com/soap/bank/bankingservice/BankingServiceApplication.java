@@ -1,13 +1,13 @@
-package com.example.howtodoinjava.springbootsoapservice;
+package com.soap.bank.bankingservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootSoapServiceApplication {
+public class BankingServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootSoapServiceApplication.class, args);
+        SpringApplication.run(BankingServiceApplication.class, args);
     }
 
 }

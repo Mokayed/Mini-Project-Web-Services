@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.springbootsoapservice;
+package com.soap.bank.bankingservice;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -25,13 +25,13 @@ public class Config extends WsConfigurerAdapter
         return new ServletRegistrationBean(servlet, "/service/*");
     }
 
-    @Bean(name = "studentDetailsWsdl")
+    @Bean(name = "customerDetailsWsdl")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countriesSchema)
     {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
-        wsdl11Definition.setPortTypeName("StudentDetailsPort");
-        wsdl11Definition.setLocationUri("/service/student-details");
-        wsdl11Definition.setTargetNamespace("https://www.howtodoinjava.com/xml/school");
+        wsdl11Definition.setPortTypeName("CustomerDetailsPort");
+        wsdl11Definition.setLocationUri("/service/customer-details");
+        wsdl11Definition.setTargetNamespace("Bank");
         wsdl11Definition.setSchema(countriesSchema);
         return wsdl11Definition;
     }
@@ -39,6 +39,6 @@ public class Config extends WsConfigurerAdapter
     @Bean
     public XsdSchema countriesSchema()
     {
-        return new SimpleXsdSchema(new ClassPathResource("school.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("Bank.xsd"));
     }
 }
