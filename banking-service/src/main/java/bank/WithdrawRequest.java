@@ -26,6 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="firstName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="amount" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,13 +37,15 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "firstName"
+    "firstName",
+    "amount"
 })
-@XmlRootElement(name = "CustomerDetailsRequest")
-public class CustomerDetailsRequest {
+@XmlRootElement(name = "WithdrawRequest")
+public class WithdrawRequest {
 
     @XmlElement(required = true)
     protected String firstName;
+    protected long amount;
 
     /**
      * Gets the value of the firstName property.
@@ -66,6 +69,22 @@ public class CustomerDetailsRequest {
      */
     public void setFirstName(String value) {
         this.firstName = value;
+    }
+
+    /**
+     * Gets the value of the amount property.
+     * 
+     */
+    public long getAmount() {
+        return amount;
+    }
+
+    /**
+     * Sets the value of the amount property.
+     * 
+     */
+    public void setAmount(long value) {
+        this.amount = value;
     }
 
 }

@@ -66,6 +66,7 @@ public class BankRepository {
 
     public long getBalance(String firstName) {
         Assert.notNull(firstName, "firstname must not be null");
+        System.out.println(customers.get(firstName).getAccount().getBalance());
         return customers.get(firstName).getAccount().getBalance();
 
     }
@@ -75,7 +76,7 @@ public class BankRepository {
         Customer c = customers.get(firstName);
         c.getAccount().setBalance(c.getAccount().getBalance()+amount);
         customers.put(firstName, c);
-        return "Succesfully deposited: " + amount + " to your balance";
+        return "Succesfully deposited: " + amount + " to your balance, your balance is now: " + c.getAccount().getBalance();
     }
 
     public String withdrawMoney(String firstName, long amount) {

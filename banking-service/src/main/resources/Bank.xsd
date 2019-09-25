@@ -16,6 +16,57 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:element name="BalanceRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BalanceResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Balance" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DepositRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstName" type="xs:string"/>
+                <xs:element name="amount" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DepositResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Balance" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="WithdrawRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstName" type="xs:string"/>
+                <xs:element name="amount" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="WithdrawResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Balance" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
 
     <xs:complexType name="Customer">
         <xs:sequence>

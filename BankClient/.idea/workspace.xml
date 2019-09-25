@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dfe82b1-ed67-4585-b940-c5dc9b2f3916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankClient.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BankClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResttfulService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResttfulService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/CustomerDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/bank/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/bank/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/BankRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/java/com/soap/bank/bankingservice/CustomerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/resources/Bank.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/resources/Bank.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banking-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../banking-service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,53 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BankClient" />
@@ -133,6 +95,9 @@
       <updated>1569335431644</updated>
       <workItem from="1569335434672" duration="1648000" />
       <workItem from="1569407585902" duration="674000" />
+      <workItem from="1569435568121" duration="6460000" />
+      <workItem from="1569442363464" duration="121000" />
+      <workItem from="1569442497429" duration="2124000" />
     </task>
     <servers />
   </component>
@@ -144,7 +109,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

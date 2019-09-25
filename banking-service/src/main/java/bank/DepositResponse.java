@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="firstName" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="Balance" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "firstName"
+    "balance"
 })
-@XmlRootElement(name = "CustomerDetailsRequest")
-public class CustomerDetailsRequest {
+@XmlRootElement(name = "DepositResponse")
+public class DepositResponse {
 
-    @XmlElement(required = true)
-    protected String firstName;
+    @XmlElement(name = "Balance", required = true)
+    protected String balance;
 
     /**
-     * Gets the value of the firstName property.
+     * Gets the value of the balance property.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getFirstName() {
-        return firstName;
+    public String getBalance() {
+        return balance;
     }
 
     /**
-     * Sets the value of the firstName property.
+     * Sets the value of the balance property.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setFirstName(String value) {
-        this.firstName = value;
+    public void setBalance(String value) {
+        this.balance = value;
     }
 
 }
