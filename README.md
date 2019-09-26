@@ -16,20 +16,23 @@ because that banks need to easily give their customers services such as withdraw
 
 <p>
 We created two diffirent services that handel the customer and account details:
+</p>  
   
   
   
   
-  
-<strong>We started developing RESTful service: </strong>
+<h4>We started developing RESTful service: </h4>
+<p>
 We made entities for the customer and account. The data of the entities are saved in a h2 database.
 The endpoints of the RESTful service have the operations of: 
 1-See all customers, 
 2-See customer by name,
 3-Deposit to account,
 4-Withdraw from account.
+</p>
 
-<stong>SOAP service:</strong>
+<h4>SOAP service:</h4>
+<p>
 The soap service contains an "xsd" file which defines methods and objects that are needed in the WSLD url. 
 With the use of dependencies such as WSDL4j and jaxb2 we could autogenerate the classes and methods from the xsd file.
 The data in the service is saved in a hashmap. Our endpoints have four operations: see sustomer, see balance of customer-account, deposit to account, withdraw from account.
