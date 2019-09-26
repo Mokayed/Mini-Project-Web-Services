@@ -15,21 +15,18 @@ because that banks need to easily give their customers services such as withdraw
 
 <h4>Development process</h4>
 
+<p>
+We created two diffirent services that handel the customer and account details, both of the services contains: String Name,String adresse, Object account(id, balance).
+  Then we created a client to consume the data from both of the services.
+</p>  
+
 <p align="center">
   
 <img src="https://github.com/Mokayed/Mini-Project-Web-Services/blob/master/BANKMINILAST.PNG" alt="UML"  height="auto" width="auto">
 
-</p>
-
-
-<p>
-We created two diffirent services that handel the customer and account details:
 </p>  
   
-  
-  
-  
-<h4>We started developing RESTful service: </h4>
+<h4> RESTful service: </h4>
 <p>
 We made entities for the customer and account. The data of the entities are saved in a h2 database.
 The endpoints of the RESTful service have the operations of: 
@@ -40,10 +37,15 @@ The endpoints of the RESTful service have the operations of:
 </p>
 
 <h4>SOAP service:</h4>
+
 <p>
 The soap service contains an "xsd" file which defines methods and objects that are needed in the WSLD url. 
 With the use of dependencies such as WSDL4j and jaxb2 we could autogenerate the classes and methods from the xsd file.
-The data in the service is saved in a hashmap. Our endpoints have four operations: see sustomer, see balance of customer-account, deposit to account, withdraw from account.
+The data in the service is saved in a hashmap. Our endpoints have four operations: 
+  1-see customer
+  2-see balance of customer-account, 
+  3-deposit to account, 
+  4-withdraw from account.
 </p>
 
 <h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></h1>
