@@ -1,28 +1,41 @@
-# Mini-Project-Web-Services
+
+<h1 align="center">System Integration Assignment: Mini Project: Web Services</h1>
+<h6>authors: Hallur við Neyst, Murched Kayed, hazems</h6>
+
+<h1>Description <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h1>
 
 
-<h1>System Integration Assignment: Mini Project: Web Services</h1>
-
-<h5>authors are: Hallur við Neyst, Murched Kayed, hazems</h5>
-
-<h1>summary of application development and implementation</h1>
+<h4>Business value</h4>
 
 <p>
-First we decided on our business value. We chose a customer/account service as a business value for a bank
+  We choose a customer/account services as a business value for a bank
 because that banks need to easily give their customers services such as withdraw, deposit and so on. 
+</p>
 
-We created two diffirent services, we started developing RESTful service: 
+<h4>Development process</h4>
+
+<p>
+We created two diffirent services that handel the customer and account details:
+  
+  
+  
+  
+  
+<strong>We started developing RESTful service: </strong>
 We made entities for the customer and account. The data of the entities are saved in a h2 database.
-The endpoints of the RESTful service have the operations of: see all customers, see customer by name, deposit to account,
-withdraw from account.
+The endpoints of the RESTful service have the operations of: 
+1-See all customers, 
+2-See customer by name,
+3-Deposit to account,
+4-Withdraw from account.
 
-SOAP service:
+<stong>SOAP service:</strong>
 The soap service contains an "xsd" file which defines methods and objects that are needed in the WSLD url. 
 With the use of dependencies such as WSDL4j and jaxb2 we could autogenerate the classes and methods from the xsd file.
 The data in the service is saved in a hashmap. Our endpoints have four operations: see sustomer, see balance of customer-account, deposit to account, withdraw from account.
 </p>
 
-<h1>installation instructions</h1>
+<h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></</h1>
 <ul>
   <li>clone the repository</li>
   <li>the repository contains 3 diffirent projects: a client, a SOAP service and a RESTful service</li>
