@@ -55,18 +55,33 @@ The data in the service is saved in a hashmap. Our endpoints have four operation
 </ul>
 
 <h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></h1>
+<p>Clone the repository, The repository contains 3 diffirent projects: a client, a SOAP service and a RESTful service, open each of them them in a java IDE (we used intellij), now follow those steps:</p>
+
+<h4>1-Strart the RESTful serivce</h4>
+
 <ul>
-  <li>clone the repository</li>
-  <li>the repository contains 3 diffirent projects: a client, a SOAP service and a RESTful service</li>
-  <li>open the 3 projects in a java IDE (we used intellij)</li>
-  <li>start the RESTful service by clicking run (the RESTservice port is 8080)</li>
-  <li>you can check the h2 data by going to http://localhost:8080/h2-console and use jdbc:h2:mem:testdb as jdbc url</li>
-  <li>an example of one of our REST endpoints: http://localhost:8080/customer/all (all customers)</li>
+  <li>1-Start the RESTful service by clicking run (the RESTservice port is 8080)</li>
+  <li>2-check the h2 database by going to http://localhost:8080/h2-console and use jdbc:h2:mem:testdb as jdbc url</li>
+  <li>3- Tetst the rest endpoint by going to: http://localhost:8080/customer/all (all customers)</li>
+  </ul>
+  
+  <h4>2-Strart the SOAP serivce</h4>
+  
+  <ul>
   <li>start the SOAP service by running the BankingServiceApplication.java file.</li>
   <li>check if the service is up and running by going to: http://localhost:8085/service/customerDetailsWsdl.wsdl</li>
-  <li>if by any chance that you did NOT get it up and running, chances are that you will need to downgrade your jdk to 1.8</li>
+  <li>If by any chance that you did NOT get it up and running, chances are that you will need to downgrade your jdk to 1.8</li>
+  </ul>
+
+  <h4>3-Now strart the Client</h4>
+  
+    <ul>
   <li>start the client by going to BankClient.java and run the file. You will be greeted by a scanner message</li>
-  <li>either choose SOAP or RESTful as a service, and after choose the operation you wish to use (see customer, see balance of customer, deposit to account, withdraw from account)</li>
+  <li>Now you can choose between SOAP or RESTful as a service to serve you, after choosing the serivce you want choose the operation you wish to use:</li>
+    <li>1-see customer</li>
+  <li>2-see balance of customer-account</li>
+  <li>3-deposit to account</li>
+  <li>4-withdraw from account.</li>
 </ul>
 
 
