@@ -1,15 +1,6 @@
 # Mini-Project-Web-Services
 
 
-The project contains a readme.txt file with the following attributes:
-
-•       authors’ details
-
-•       brief summary of application development and implementation, including both business and technical features
-
-•       installation instructions
-
-
 <h1>System Integration Assignment: Mini Project: Web Services</h1>
 
 <h5>authors are: Hallur við Neyst, Murched Kayed, hazems</h5>
