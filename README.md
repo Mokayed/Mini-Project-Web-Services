@@ -30,11 +30,14 @@ We created two diffirent services that handel the customer and account details, 
 <p>
 We made entities for the customer and account. The data of the entities are saved in a h2 database.
 The endpoints of the RESTful service have the operations of: 
-1-See all customers, 
-2-See customer by name,
-3-Deposit to account,
-4-Withdraw from account.
 </p>
+
+<ul>
+  <li>1-See all customers,</li>
+  <li>2-See customer by name</li>
+  <li>3-Deposit to account</li>
+  <li>4-Withdraw from account</li>
+</ul>
 
 <h4>SOAP service:</h4>
 
@@ -42,11 +45,14 @@ The endpoints of the RESTful service have the operations of:
 The soap service contains an "xsd" file which defines methods and objects that are needed in the WSLD url. 
 With the use of dependencies such as WSDL4j and jaxb2 we could autogenerate the classes and methods from the xsd file.
 The data in the service is saved in a hashmap. Our endpoints have four operations: 
-  1-see customer
-  2-see balance of customer-account, 
-  3-deposit to account, 
-  4-withdraw from account.
 </p>
+
+<ul>
+  <li>1-see customer</li>
+  <li>2-see balance of customer-account</li>
+  <li>3-deposit to account</li>
+  <li>4-withdraw from account.</li>
+</ul>
 
 <h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></h1>
 <ul>
