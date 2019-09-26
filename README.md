@@ -35,7 +35,7 @@ With the use of dependencies such as WSDL4j and jaxb2 we could autogenerate the 
 The data in the service is saved in a hashmap. Our endpoints have four operations: see sustomer, see balance of customer-account, deposit to account, withdraw from account.
 </p>
 
-<h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></</h1>
+<h1>Setup<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji></h1>
 <ul>
   <li>clone the repository</li>
   <li>the repository contains 3 diffirent projects: a client, a SOAP service and a RESTful service</li>
