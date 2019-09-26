@@ -59,7 +59,7 @@ The data in the service is saved in a hashmap. Our endpoints have four operation
 
 <h4>1-Strart the RESTful serivce</h4>
 
-<ul>
+  <ul>
   <li>1-Start the RESTful service by clicking run (the RESTservice port is 8080)</li>
   <li>2-check the h2 database by going to http://localhost:8080/h2-console and use jdbc:h2:mem:testdb as jdbc url</li>
   <li>3- Tetst the rest endpoint by going to: http://localhost:8080/customer/all (all customers)</li>
@@ -75,10 +75,10 @@ The data in the service is saved in a hashmap. Our endpoints have four operation
 
   <h4>3-Now strart the Client</h4>
   
-    <ul>
+  <ul>
   <li>start the client by going to BankClient.java and run the file. You will be greeted by a scanner message</li>
   <li>Now you can choose between SOAP or RESTful as a service to serve you, after choosing the serivce you want choose the operation you wish to use:</li>
-    <li>1-see customer</li>
+   <li>1-see customer</li>
   <li>2-see balance of customer-account</li>
   <li>3-deposit to account</li>
   <li>4-withdraw from account.</li>
