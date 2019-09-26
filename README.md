@@ -14,6 +14,13 @@ because that banks need to easily give their customers services such as withdraw
 
 <h4>Development process</h4>
 
+<p align="center">
+  
+<img src="https://github.com/Hallur20/IntegrationAssignment2/blob/master/conection.PNG" alt="UML"  height="auto" width="auto">
+
+</p>
+
+
 <p>
 We created two diffirent services that handel the customer and account details:
 </p>  
