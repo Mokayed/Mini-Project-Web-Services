@@ -61,14 +61,15 @@ The data in the service is saved in a hashmap. Our endpoints have four operation
 
   <ul>
   <li>1-Start the RESTful service by clicking run (the RESTservice port is 8080)</li>
-  <li>2-check the h2 database by going to http://localhost:8080/h2-console and use jdbc:h2:mem:testdb as jdbc url</li>
-  <li>3- Tetst the rest endpoint by going to: http://localhost:8080/customer/all (all customers)</li>
+
+  <li>2 Tetst the rest endpoint by going to: http://localhost:8080/customer/all (all customers)</li>
   </ul>
   
   <h4>2-Strart the SOAP serivce</h4>
   
   <ul>
   <li>start the SOAP service by running the BankingServiceApplication.java file.</li>
+   <li>check the h2 database by going to http://localhost:8080/h2-console and use jdbc:h2:mem:testdb as jdbc url</li>
   <li>check if the service is up and running by going to: http://localhost:8085/service/customerDetailsWsdl.wsdl</li>
   <li>If by any chance that you did NOT get it up and running, chances are that you will need to downgrade your jdk to 1.8</li>
   </ul>
